@@ -42,6 +42,10 @@
 \newcommand{\Rmnum}[1]{\expandafter\@slowromancap\romannumeral #1@}
 \makeatother
 
+
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+
 \newcommand{\bmat}[1]{\begin{bmatrix}#1\end{bmatrix}}
 \newcommand{\dd}{\operatorname{d}\!}
 \newcommand{\norm}[2]{\|{#1}\|_{{}_{#2}}}
@@ -303,7 +307,7 @@ rocket when $\theta = 45^\circ$ if $\dot{\theta} = \nicefrac{1}{10}\;
     \begin{itemize}
         \setlength\itemsep{-0.4em}
         \item[c.] $90 \; \unit[per-mode=symbol]{\meter\per\second}$
-        \item[d.] $360 \; \unit[per-mode=symbol]{\meter\per\second}$
+        \item[\circled{d.}] $360 \; \unit[per-mode=symbol]{\meter\per\second}$
     \end{itemize}
     \end{center}
 \end{minipage}
@@ -313,7 +317,7 @@ rocket when $\theta = 45^\circ$ if $\dot{\theta} = \nicefrac{1}{10}\;
 % \begin{figure}[h]
 \begin{minipage}{0.5\textwidth}
     \centering
-    \includegraphics[width=0.5\textwidth,valign=c]{./figures/question6.eps}
+    \includegraphics[width=0.55\textwidth,valign=c]{./figures/question1.eps}
 %     \captionsetup{labelformat=empty}
 %     \caption{\scriptsize DC motor drawing and schematic}
 %     \label{fig:gear_system}
@@ -344,7 +348,7 @@ acceleration of the midpoint $G$ of the rod at this instant $(\theta =
     \begin{center}
     \begin{itemize}
         \setlength\itemsep{-0.4em}
-        \item[c.] $2.5 \; \unit{\meter\per\second} \; \leftarrow$
+        \item[\circled{c.}] $0.5 \; \unit{\meter\per\second} \; \leftarrow$
         \item[d.] $2.5 \; \unit{\meter\per\second} \; \rightarrow$
     \end{itemize}
     \end{center}
@@ -355,7 +359,7 @@ acceleration of the midpoint $G$ of the rod at this instant $(\theta =
 % \begin{figure}[h]
 \begin{minipage}{0.5\textwidth}
     \centering
-    \includegraphics[width=0.5\textwidth,valign=c]{./figures/question6.eps}
+    \includegraphics[width=0.8\textwidth,valign=c]{./figures/question2.eps}
 %     \captionsetup{labelformat=empty}
 %     \caption{\scriptsize DC motor drawing and schematic}
 %     \label{fig:gear_system}
@@ -378,7 +382,7 @@ $B$ and $R$ is $\nicefrac{1}{10}$. \\[0.5ex]
     \begin{center}
     \begin{itemize}
         \setlength\itemsep{-0.4em}
-        \item[a.] $9.9 \; \unit{\newton}$
+        \item[\circled{a.}] $9.9 \; \unit{\newton}$
         \item[b.] $11.9 \; \unit{\newton}$
     \end{itemize}
     \end{center}
@@ -398,7 +402,7 @@ $B$ and $R$ is $\nicefrac{1}{10}$. \\[0.5ex]
 % \begin{figure}[h]
 \begin{minipage}{0.5\textwidth}
     \centering
-    \includegraphics[width=0.5\textwidth,valign=c]{./figures/question6.eps}
+    \includegraphics[width=0.8\textwidth,valign=c]{./figures/question3.eps}
 %     \captionsetup{labelformat=empty}
 %     \caption{\scriptsize DC motor drawing and schematic}
 %     \label{fig:gear_system}
@@ -429,7 +433,7 @@ block and the floor is $\nicefrac{2}{10}$, find $\Delta$. \\[0.5ex]
     \begin{center}
     \begin{itemize}
         \setlength\itemsep{-0.4em}
-        \item[c.] $0.26 \; \unit{\meter}$
+        \item[\circled{c.}] $0.26 \; \unit{\meter}$
         \item[d.] $0.08 \; \unit{\meter}$
     \end{itemize}
     \end{center}
@@ -440,7 +444,7 @@ block and the floor is $\nicefrac{2}{10}$, find $\Delta$. \\[0.5ex]
 % \begin{figure}[h]
 \begin{minipage}{0.5\textwidth}
     \centering
-    \includegraphics[width=0.5\textwidth,valign=c]{./figures/question6.eps}
+    \includegraphics[width=0.8\textwidth,valign=c]{./figures/question4.eps}
 %     \captionsetup{labelformat=empty}
 %     \caption{\scriptsize DC motor drawing and schematic}
 %     \label{fig:gear_system}
@@ -461,7 +465,7 @@ perpendicular to the plane of the paper. \\[0.5ex]
     \begin{itemize}
         \setlength\itemsep{-0.4em}
         \item[a.] $19 \; \unit{\kilo\gram\,\meter^2}$
-        \item[b.] $23 \; \unit{\kilo\gram\,\meter^2}$
+        \item[\circled{b.}] $23 \; \unit{\kilo\gram\,\meter^2}$
     \end{itemize}
     \end{center}
 \end{minipage}
@@ -480,7 +484,7 @@ perpendicular to the plane of the paper. \\[0.5ex]
 % \begin{figure}[h]
 \begin{minipage}{0.5\textwidth}
     \centering
-    \includegraphics[width=0.5\textwidth,valign=c]{./figures/question6.eps}
+    \includegraphics[width=0.6\textwidth,valign=c]{./figures/question5.eps}
 %     \captionsetup{labelformat=empty}
 %     \caption{\scriptsize DC motor drawing and schematic}
 %     \label{fig:gear_system}
@@ -500,7 +504,7 @@ velocity after $10 \; \unit{\second}$? \\[0.5ex]
     \begin{center}
     \begin{itemize}
         \setlength\itemsep{-0.4em}
-        \item[a.] $8.3 \; \unit{\radian\per\second}$
+        \item[\circled{a.}] $8.3 \; \unit{\radian\per\second}$
         \item[b.] $6.8 \; \unit{\radian\per\second}$
     \end{itemize}
     \end{center}
@@ -541,7 +545,7 @@ $O$? \\[0.5ex]
     \begin{center}
     \begin{itemize}
         \setlength\itemsep{-0.4em}
-        \item[a.] $1.33 \; \unit{\radian\per\second}$
+        \item[\circled{a.}] $1.33 \; \unit{\radian\per\second}$
         \item[b.] $1.63 \; \unit{\radian\per\second}$
     \end{itemize}
     \end{center}
